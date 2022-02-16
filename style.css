@@ -1,0 +1,111 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'p';
+    src: url('fontes/sfcartoonisthand.ttf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'titulo';
+    src: url('fontes/Folklore.otf') format('truetype');
+    font-weight: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body{
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    text-align: center;
+
+}
+
+header > h1{
+    padding-top: 80px;
+    font: normal normal 7em 'titulo';
+    color: white;
+    margin: auto;
+
+}
+
+header > p{
+    font: normal normal 1.3em 'arial';
+    color: white;
+    padding-bottom: 80px;
+    padding-top: 20px;
+
+}
+
+header > p > strong > a, footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header > p > strong > a:hover, footer > p > a:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+div.container{
+    background-color: rgb(255, 255, 255);
+
+    font: italic 900 75px 'p';
+    line-height: 1.8em;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+
+}
+
+
+div#c2{
+
+    background: black url('imagens/puma-695201674.jpg') center center fixed;
+
+}
+
+
+div#c2 > p{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    width: 680px;
+
+}
+
+div#c3 > p, div#c5 > p{
+
+    margin-bottom: 100px;
+
+}
+
+div#c4{
+    background:  black url('imagens/pexels-photo-2118511.jpeg') center center no-repeat fixed;
+    background-size: 100%;
+
+}
+
+div#c4 > p{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    width: 680px;
+
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+
+}
+
+footer > p{
+    font: normal normal 1em 'arial';
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
